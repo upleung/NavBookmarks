@@ -140,6 +140,6 @@ MIT License
 
 ---
 
-## ❤️ 致谢
+## 👍 致谢
 
 本项目基于 [eooce/nav-item](https://github.com/eooce/nav-item) 改进与整理，感谢原作者的优秀开源贡献。
