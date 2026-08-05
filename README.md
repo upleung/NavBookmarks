@@ -2,6 +2,8 @@
 
 NavBookmarks 是一个 **轻量级、自托管的导航书签管理器**，基于 Node.js + Express + SQLite 构建，提供简洁的前端界面与可视化后台管理。适合部署在 **VPS、NAS、家宽服务器、Docker、Hostuno、serv00、ct8** 等环境。
 
+nav-links/ Nav-URL / Nav-iTek / Nav-ITK / Nav-Web / Nav-X / Nav-inet / Nav-McG / Nav-iter
+
 ---
 
 ## ✨ 功能特性
