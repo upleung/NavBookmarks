@@ -7,6 +7,6 @@ module.exports = {
   },
   server: {
     port: process.env.PORT || 3000,
-    jwtSecret: process.env.JWT_SECRET || 'nav-item-jwt-secret-2024-secure-key'
+    jwtSecret: process.env.JWT_SECRET || 'NavBookmarks-jwt-secret-2024-secure-key'
   }
 }; 

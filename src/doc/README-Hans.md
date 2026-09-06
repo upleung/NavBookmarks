@@ -23,14 +23,14 @@ nav-links/ Nav-URL / Nav-iTek / Nav-ITK / Nav-Web / Nav-X / Nav-inet / Nav-McG /
 在面板中创建站点后，SSH 执行：
 
 ```bash
-bash <(curl -Ls https://github.com/eooce/nav-item/releases/download/ct8-and-serv00/install.sh)
+bash <(curl -Ls https://github.com/upleung/NavBookmarks/releases/download/ct8-and-serv00/install.sh)
 ```
 
 可选环境变量（放在脚本前，空格分隔）：
 
 ```bash
 DOMAIN=yourdomain.com USER=admin PASS=123456 \
-bash <(curl -Ls https://github.com/eooce/nav-item/releases/download/ct8-and-serv00/install.sh)
+bash <(curl -Ls https://github.com/upleung/NavBookmarks/releases/download/ct8-and-serv00/install.sh)
 ```
 
 ---
@@ -43,7 +43,7 @@ docker run -d \
   -p 3000:3000 \
   -v $(pwd)/database:/app/database \
   --restart always \
-  eooce/nav-item
+  upleung/NavBookmarks
 ```
 
 访问地址：
@@ -144,4 +144,4 @@ MIT License
 
 ## 👍 致谢
 
-本项目基于 [eooce/nav-item](https://github.com/eooce/nav-item) 改进与整理，感谢原作者的优秀开源贡献。
+本项目基于 [upleung/NavBookmarks](https://github.com/upleung/NavBookmarks) 改进与整理，感谢原作者的优秀开源贡献。

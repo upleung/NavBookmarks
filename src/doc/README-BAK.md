@@ -1,4 +1,4 @@
-# Nav-item - 个人导航站
+# NavBookmarks - 个人导航站
 
 ## 项目简介
 
@@ -35,7 +35,7 @@
 ## 🏗️ 项目结构
 
 ```
-nav-item/
+NavBookmarks/
 ├── app.js                 # 后端主入口文件
 ├── config.js             # 配置文件
 ├── db.js                 # 数据库初始化
@@ -97,8 +97,8 @@ nav-item/
 
 #### 1. 克隆项目
 ```bash
-git clone https://github.com/eooce/nav-Item.git
-cd nav-item
+git clone https://github.com/upleung/NavBookmarks.git
+cd NavBookmarks
 ```
 
 #### 2. 安装后端依赖
@@ -127,23 +127,23 @@ cd .. && npm start
 #### 1：docker快速部署
    ```bash
    docker run -d \
-     --name nav-item \
+     --name NavBookmarks \
      -p 3000:3000 \
      -v $(pwd)/database:/app/database \
      -v $(pwd)/uploads:/app/uploads \
      -e NODE_ENV=production \
      -e ADMIN_USERNAME=admin \
      -e ADMIN_PASSWORD=123456 \
-     eooce/nav-item
+     upleung/NavBookmarks
    ```
 ### 2: docker-compose.yaml 部署
 ```bash
 version: '3'
 
 services:
-  nav-item:
-    image: eooce/nav-item
-    container_name: nav-item
+  NavBookmarks:
+    image: upleung/NavBookmarks
+    container_name: NavBookmarks
     ports:
       - "3000:3000"
     environment:
@@ -156,11 +156,11 @@ services:
 ```
 ### 3: docker容器等使用docker image配合环境变量部署
 ```bash
-eooce/nav-item
+upleung/NavBookmarks
 ```
 或
 ```bash
-ghcr.io/eooce/nav-item:latest
+ghcr.io/upleung/NavBookmarks:latest
 ```
 
 ## serv00|ct8|Hostuno 一键安装脚本
@@ -169,7 +169,7 @@ ghcr.io/eooce/nav-item:latest
   * `DOMAIN`为自定义站点域名
 
 ```bash
-bash <(curl -Ls https://github.com/eooce/nav-item/releases/download/ct8-and-serv00/install.sh) 
+bash <(curl -Ls https://github.com/upleung/NavBookmarks/releases/download/ct8-and-serv00/install.sh) 
 ```
 
 ## 🤝 贡献指南
@@ -186,7 +186,7 @@ bash <(curl -Ls https://github.com/eooce/nav-item/releases/download/ct8-and-serv
 
 ## 👨‍💻 作者
 
-**eooce** - [GitHub](https://github.com/eooce)
+**upleung** - [GitHub](https://github.com/upleung)
 
 ## 🙏 致谢
 

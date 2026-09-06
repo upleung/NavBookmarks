@@ -41,10 +41,10 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/nav-item:latest
+            ghcr.io/${{ github.repository_owner }}/NavBookmarks:latest
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
-            org.opencontainers.image.description=nav-item
+            org.opencontainers.image.description=NavBookmarks
             org.opencontainers.image.licenses=MIT
           cache-from: type=gha
           cache-to: type=gha,mode=max
