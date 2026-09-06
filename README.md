@@ -1,4 +1,4 @@
-[🇺🇸 English](https://www.google.com/search?q=README.md) | [🇨🇳 中文](https://www.google.com/search?q=/src/doc/README-BAK.md)
+[🇺🇸 English](https://github.com/upleung/NavBookmarks/edit/main/README.md) | [🇨🇳 中文](https://github.com/upleung/NavBookmarks/blob/main/src/doc/README-Hans.md)
 
 # NavBookmarks - Web Bookmark Navigation Page
 
