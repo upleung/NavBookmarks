@@ -1,9 +1,9 @@
 version: '3'
 
 services:
-  NavBookmarks:
-    image: upleung/NavBookmarks
-    container_name: NavBookmarks
+  navbookmarks:
+    image: upleung/navbookmarks:latest
+    container_name: navbookmarks
     ports:
       - "3000:3000"
     environment:
