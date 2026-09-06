@@ -179,9 +179,4 @@ MIT License
 
 ## 👍 Acknowledgements
 
-<<<<<<< HEAD
-This project is improved and organized based on [upleung/NavBookmarks](https://www.google.com/search?q=https://github.com/upleung/NavBookmarks). Thanks to the original author for their excellent open-source contribution.
-=======
-This project is improved and organized based on [upleung/NavBookmarks/](https://www.google.com/search?q=https://github.com/upleung/NavBookmarks/)[cite: 1]. Thanks to the original author for their excellent open-source contribution[cite: 1].
-
->>>>>>> 6b0635bb41845c205b9d0690f454c38110965881
+This project is improved and organized based on [eooce/nav-item](https://www.google.com/search?q=https://github.com/eooce/nav-item). Thanks to the original author for their excellent open-source contribution
