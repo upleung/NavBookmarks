@@ -179,4 +179,4 @@ MIT License
 
 ## 👍 Acknowledgements
 
-This project is improved and organized based on [eooce/nav-item](https://www.google.com/search?q=https://github.com/eooce/nav-item). Thanks to the original author for their excellent open-source contribution
+This project is improved and organized based on  [GitHub](https://github.com/upleung). Thanks to the original author for their excellent open-source contribution

@@ -127,12 +127,12 @@ function getLogo(card) {
     const url = new URL(card.url);
     return url.origin + '/favicon.ico';
   } catch {
-    return '/default-favicon.png';
+    return '/default-favicon.svg';
   }
 }
 
 function onImgError(e, card) {
-  e.target.src = '/default-favicon.png';
+  e.target.src = '/default-favicon.svg';
 }
 
 function getTooltip(card) {

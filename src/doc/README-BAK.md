@@ -51,14 +51,14 @@ NavBookmarks/
 │   ├── user.js          # 用户管理路由
 │   └── upload.js        # 文件上传路由
 ├── uploads/              # 上传文件目录
-│   └── default-favicon.png
+│   └── default-favicon.svg
 ├── web/                  # 前端项目目录
 │    ├── package.json      # 前端依赖配置
 │    ├── vite.config.mjs   # Vite配置文件
 │    ├── index.html        # HTML入口文件
 │    ├── public/           # 静态资源
 │    │   ├── background.webp
-│    │   ├── default-favicon.png
+│    │   ├── default-favicon.svg
 │    │   └── robots.txt
 │    └── src/              # 前端源码
 │        ├── main.js       # Vue应用入口
